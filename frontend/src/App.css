@@ -1,4 +1,4 @@
-/* App.css */
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"); */
 :root {
   --primary-dark: #1a1a1a;
   --secondary-dark: #242424;
@@ -311,5 +311,15 @@ body {
   }
 }
 
-/* Add Inter font */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+.run-btn {
+  background-color: green;
+  padding: 10px;
+}
+
+.output-console {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 20px;
+  height: 200px;
+}
